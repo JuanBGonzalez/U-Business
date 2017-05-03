@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/cont_todo_list"
+    android:background="@drawable/backgen"
+    tools:context="com.example.juanb.ubusiness.Screens.Fragments.FragmentAutomaticCobro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Insertar Cobro Automatico"
+            android:textSize="22sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lst_todos"
+        android:layout_width="match_parent"
+        android:layout_height="294dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fablist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:srcCompat="@android:drawable/ic_dialog_info"
+            android:layout_alignBottom="@+id/btn_add_inqui"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            app:elevation="6dp"
+            app:backgroundTint="@android:color/holo_blue_light"
+            app:fabSize="mini" />
+
+        <Button
+            android:id="@+id/btn_add_inqui"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_border"
+            android:text="Agregar Cobro Manual"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

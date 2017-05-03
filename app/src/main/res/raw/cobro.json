@@ -1,0 +1,112 @@
+{
+  "todoArrayList2": [
+    {
+      "todoContent": "Inquilino 1",
+      "todoCreationDate": "2016-Aug-05-14-21-1",
+      "cedula": "1",
+      "nombre": "Inqui",
+      "apellido": "1",
+      "cuarto": 1
+    },
+    {
+      "todoContent": "Inquilino 2",
+      "todoCreationDate": "2016-Dec-05-14-21-2",
+      "cedula": "2",
+      "nombre": "Inqui",
+      "apellido": "2",
+      "cuarto": 2
+
+
+    },
+    {
+      "todoContent": "Inquilino 3",
+      "todoCreationDate": "2016-Jan-05-14-21-3",
+      "cedula": "3",
+      "nombre": "Inqui",
+      "apellido": "3",
+      "cuarto": 3
+
+    },
+    {
+      "todoContent": "Inquilino 4",
+      "todoCreationDate": "2016-Dec-05-14-21-4",
+      "cedula": "4",
+      "nombre": "Inqui",
+      "apellido": "4",
+      "cuarto": 4
+
+    },
+    {
+      "todoContent": "Inquilino 5",
+      "todoCreationDate": "2016-Dec-05-14-21-5",
+      "cedula": "5",
+      "nombre": "Inqui",
+      "apellido": "5",
+      "cuarto": 5
+
+    },
+    {
+      "todoContent": "Inquilino 6",
+      "todoCreationDate": "2016-Dec-05-14-21-6",
+      "cedula": "6",
+      "nombre": "Inqui",
+      "apellido": "6",
+      "cuarto": 6
+
+    },
+    {
+      "todoContent": "Inquilino 7",
+      "todoCreationDate": "2016-Dec-05-14-21-7",
+      "cedula": "7",
+      "nombre": "Inqui",
+      "apellido": "7",
+      "cuarto": 7
+
+    },
+    {
+      "todoContent": "Inquilino 8",
+      "todoCreationDate": "2016-Dec-05-14-21-8",
+      "cedula": "8",
+      "nombre": "Inqui",
+      "apellido": "8",
+      "cuarto": 8
+
+    },
+    {
+      "todoContent": "Inquilino 9",
+      "todoCreationDate": "2016-Dec-05-14-21-9",
+      "cedula": "9",
+      "nombre": "Inqui",
+      "apellido": "9",
+      "cuarto": 9
+
+    },
+    {
+      "todoContent": "Inquilino 10",
+      "todoCreationDate": "2016-Dec-05-14-21-10",
+      "cedula": "10",
+      "nombre": "Inqui",
+      "apellido": "10",
+      "cuarto": "10"
+
+    },
+    {
+      "todoContent": "Inquilino 11",
+      "todoCreationDate": "2016-Dec-05-14-21-1",
+      "cedula": "11",
+      "nombre": "Inqui",
+      "apellido": "11",
+      "cuarto": 11
+
+    },
+    {
+      "todoContent": "Inquilino 12",
+      "todoCreationDate": "2016-Dec-05-14-21-12",
+      "cedula": "12",
+      "nombre": "Inqui",
+      "apellido": "12",
+      "cuarto": 12
+
+    }
+  ]
+}

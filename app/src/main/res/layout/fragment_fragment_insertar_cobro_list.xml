@@ -1,0 +1,71 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cont_todo_list2"
+    android:background="@drawable/backgen"
+    tools:context="com.example.juanb.ubusiness.Screens.Fragments.FragmentInsertarCobroList">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cobros Realizados"
+            android:textSize="22sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lst_todos2"
+        android:layout_width="match_parent"
+        android:layout_height="294dp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_add_inqui"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="Agregar Cobros"
+            android:background="@drawable/button_border"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/fablist"
+            android:layout_toEndOf="@+id/fablist"
+            android:layout_marginTop="14dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fablist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:srcCompat="@android:drawable/ic_dialog_info"
+            android:layout_marginLeft="44dp"
+            android:layout_marginStart="44dp"
+            android:layout_alignBottom="@+id/btn_add_inqui"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:backgroundTint="@android:color/holo_blue_bright"
+            app:rippleColor="?attr/actionMenuTextColor"
+            app:fabSize="mini" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

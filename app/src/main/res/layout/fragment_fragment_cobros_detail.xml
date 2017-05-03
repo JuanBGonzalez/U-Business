@@ -1,0 +1,138 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.juanb.ubusiness.Screens.Fragments.FragmentCobrosDetail">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Detalles del Factura"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="Nombre:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        />
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:id="@+id/lbl_inquilinos_nombre"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Apellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_inquilinos_apellido" />
+
+    <TextView
+        android:text="Cedula:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_inquilinos_cedula" />
+
+    <TextView
+        android:text="Cuarto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_inquilinos_cuarto" />
+
+    <TextView
+        android:text="Monto:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_inquilinos_monto" />
+
+    <TextView
+        android:text="Fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView18"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lbl_inquilinos_diapago" />
+
+    <TextView
+        android:id="@+id/lbl_todo_content_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="bottom"
+        android:text="Detalle del cobro:"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/lbl_inquilino_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/btn_edit_todo"
+            android:layout_width="160dp"
+            android:layout_height="40dp"
+            android:text="Edit Factura"
+            android:background="@drawable/button_border"
+            android:textColor="@android:color/black"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>

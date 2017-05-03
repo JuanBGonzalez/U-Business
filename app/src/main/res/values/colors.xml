@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimaryClear">#3F5798</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkred">#B73D3D</color>
+    <color name="clearred">#DF0000</color>
+    <color name="Turqueza">#8100876a</color>
+    <color name="Green1">#56ece2</color>
+    <color name="GreenAncient">#0EE2B8</color>
+</resources>

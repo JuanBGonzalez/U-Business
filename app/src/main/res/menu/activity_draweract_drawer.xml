@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Inquilinos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Inquilinos" />
+        <item
+            android:id="@+id/nav_Insertar_Inquilinos"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Insertar Inquilinos" />
+        <item
+            android:id="@+id/nav_Cobros_Realizados"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Cobros Realizados" />
+        <item
+            android:id="@+id/nav_Insertar_Cobro"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Insertar Cobro Rapido" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Herramientas" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar" />
+        </menu>
+    </item>
+
+</menu>

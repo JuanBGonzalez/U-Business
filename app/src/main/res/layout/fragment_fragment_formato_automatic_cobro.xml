@@ -1,0 +1,242 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.juanb.ubusiness.Screens.Fragments.FragmentFormatoAutomaticCobro">
+
+    <TextView
+        android:text="Nombre:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:textColorPrimary="#B6B6B6"
+
+        android:layout_toLeftOf="@+id/edt_inquilinos_nombre"
+        android:layout_toStartOf="@+id/edt_inquilinos_nombre"
+        android:layout_alignBottom="@+id/edt_inquilinos_nombre"
+        android:layout_alignTop="@+id/edt_inquilinos_nombre" />
+
+    <TextView
+        android:text="Apellido:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:textColorPrimary="#B6B6B6"
+        android:layout_below="@+id/textView2"
+        android:layout_toLeftOf="@+id/edt_inquilinos_nombre"
+        android:layout_toStartOf="@+id/edt_inquilinos_nombre"
+        android:layout_alignBottom="@+id/edt_inquilinos_apellido" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/edt_inquilinos_apellido"
+        android:layout_weight="0.05"
+        android:layout_below="@+id/edt_inquilinos_nombre"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2" />
+
+    <TextView
+        android:text="Cuarto:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:textColorPrimary="#B6B6B6"
+        android:layout_below="@+id/edt_inquilinos_cedula"
+        android:layout_toLeftOf="@+id/edt_inquilinos_cedula"
+        android:layout_toStartOf="@+id/edt_inquilinos_cedula"
+        android:layout_above="@+id/lbl_todo_creation_title" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:inputType="number"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/edt_inquilinos_cuarto"
+        android:layout_weight="0.05"
+        android:layout_below="@+id/edt_inquilinos_cedula"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/lbl_todo_creation_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Fecha:"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp"
+        android:layout_below="@+id/edt_inquilinos_cuarto"
+        android:layout_toLeftOf="@+id/edt_inquilinos_cuarto"
+        android:layout_above="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Monto:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:textColorPrimary="#B6B6B6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/edt_inquilinos_monto"
+        android:layout_alignBottom="@+id/edt_inquilinos_monto"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/edt_inquilinos_cedula"
+        android:layout_weight="0.05"
+        android:layout_below="@+id/edt_inquilinos_apellido"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:text="Cedula:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        android:textColorPrimary="#B6B6B6"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/edt_inquilinos_apellido"
+        android:layout_toStartOf="@+id/edt_inquilinos_apellido"
+        android:layout_above="@+id/textView5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/edt_inquilinos_monto"
+        android:layout_weight="0.05"
+        android:layout_below="@+id/lbl_todo_creation_date"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/lbl_todo_content_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Detalles (opcional):"
+        android:textColorPrimary="#B6B6B6"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/edt_inquilinos_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/edt_inquilinos_content"
+        android:layout_toStartOf="@+id/edt_inquilinos_content"
+        android:layout_below="@+id/textView6" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Cobrador automatico"
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:id="@+id/edt_inquilinos_nombre"
+        android:layout_weight="0.05"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/fabcreate"
+        android:layout_toEndOf="@+id/fabcreate" />
+
+    <TextView
+        android:id="@+id/lbl_todo_creation_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="16sp"
+        android:layout_below="@+id/edt_inquilinos_cuarto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabcreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignTop="@+id/btn_done"
+        android:layout_toLeftOf="@+id/btn_done"
+        android:layout_toStartOf="@+id/btn_done"
+        app:backgroundTint="@android:color/holo_blue_bright"
+        app:rippleColor="?attr/actionMenuTextColor"
+        app:fabSize="mini" />
+
+    <EditText
+        android:id="@+id/edt_inquilinos_content"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_below="@+id/edt_inquilinos_monto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/fabcreate"
+        android:layout_toEndOf="@+id/fabcreate" />
+
+    <Button
+        android:id="@+id/btn_done"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:text="Listo"
+        android:background="@drawable/button_border"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_below="@+id/lbl_todo_content_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
